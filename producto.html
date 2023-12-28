@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA.R! Store</title>
+    <link rel="stylesheet" href="css/normalize.css"> <!--Enlazar la hoja de estilos-->
+
+    <!--Tipografia:  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Staatliches&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css"> <!--Duplicar linea Shift + Alt + flecha abajo-->
+</head>
+<body>
+
+    <header class="header" >
+        <a href="index.html">
+            <img class="header__logo" src="img/logos/2.png" alt="Logotipo"> <!--texto alternativo en caso de que no cargue la imagen-->
+            <img class="header__logo" src="img/logos/3.png">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Nosotros</a>
+        <a class="navegacion__enlace" href="tienda.html">Tienda</a> <!--Enlaces-->
+    </nav>
+
+    <main class="contenedor">
+        <h2>Funda Hardcord Body</h2>
+
+        <div class="funda">
+            <img class="funda__imagen" src="img/fundas/1.jpg"  alt="imagen de producto">
+
+            <div class="funda__contenido">
+                <p>Protección interna de 6 mm. Polipropileno de 200 micrones. Aislación térmica. Puntera reforzada en cordura.Cubre cierre de protección . Manija de acarreo de PVC. Bolsillos interiores.
+                </p>
+
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>Grosor</option>
+                        <option>2mm</option>
+                        <option>4mm</option>
+                        <option>6mm</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">La Rompiente Store - Todos los derechos reservados</p>
+    </footer>
+    
+</body>
+</html>

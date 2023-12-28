@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA.R! Store</title>
+    <link rel="stylesheet" href="css/normalize.css"> <!--Enlazar la hoja de estilos-->
+
+    <!--Tipografia:  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Staatliches&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css"> <!--Duplicar linea Shift + Alt + flecha abajo-->
+</head>
+<body>
+
+    <header class="header" >
+        <a href="index.html">
+            <img class="header__logo" src="img/logos/2.png" alt="Logotipo"> <!--texto alternativo en caso de que no cargue la imagen-->
+            <img class="header__logo" src="img/logos/3.png">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="guantes.html">Guantes</a>
+        <a class="navegacion__enlace" href="fundas.html">Fundas</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="capuchas.html">Capuchas</a>
+    </nav>
+
+    <main class="contenedor">        
+
+        <div class="grid">
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/capuchas/1.jpg" alt="Imagen camisa">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">HiperFlex 3mm</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div> <!--Fin class producto-->
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/capuchas/2.jpg" alt="Imagen camisa">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">HiperFlex Ribbed 3mm</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div> <!--Fin class producto-->
+    
+            <div class="producto">
+                <a href="producto.html">
+                    <img class="producto__imagen" src="img/capuchas/3.png" alt="Imagen camisa">
+                    <div class="producto__informacion">
+                        <p class="producto__nombre">Capucha</p>
+                        <p class="producto__precio">$25</p>
+                    </div>
+                </a>
+            </div> <!--Fin class producto-->
+    
+        </div>
+    
+    </main>
+
+    <nav class="navegacion navegacion__footer">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Nosotros</a>
+        <a class="navegacion__enlace" href="tienda.html">Tienda</a> <!--Enlaces-->
+    </nav>
+    
+    <footer class="footer">
+        <p class="footer__texto">La Rompiente Store - Todos los derechos reservados</p>
+    </footer>
+    
+</body>
+</html>
+
